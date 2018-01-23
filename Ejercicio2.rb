@@ -22,7 +22,7 @@ if a[-1] != 1
 end
 
 #5. Utilizando un arreglo vacío auxiliar y operaciones de push and pop invertir el orden de los elementos en
-un arreglo.
+#un arreglo.
 b = Array.new
 a.length.times do |x|
   b.push(a.pop)
